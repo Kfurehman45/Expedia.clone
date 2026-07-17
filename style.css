@@ -1,0 +1,891 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    width: 100vw;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    background-color: #92A5B9;
+}
+
+#top-bar {
+    padding: 16px;
+    font-size: 17px;
+    background-color: gray;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    height: 12%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#first-ul {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-left: 50px;
+}
+
+#nav-img img {
+    width: 150px;
+}
+
+#second-ul {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+}
+
+#usd {
+    display: flex;
+    gap: 10px;
+}
+
+#usd img {
+    width: 25px;
+}
+
+#hero-section {
+    height: 68%;
+    width: 100%;
+    background-image: url(./assets/hero-img.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hero-section h1 {
+    font-style: oblique;
+    font-size: 40px;
+    color: white;
+    margin-top: 35px;
+}
+
+#hero-container {
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    margin-top: 37px;
+    border-radius: 20px;
+}
+
+#hero-nav {
+    height: 40%;
+    width: 100%;
+    border-bottom: 2px solid #E7E8EB;
+}
+
+#img-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.img-li {
+    height: 100%;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-list a {
+    color: black;
+    text-decoration: none;
+}
+
+#hero-form-container {
+    height: 62%;
+    width: 100%;
+}
+
+#hero-form {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#img-lb a {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.hero-input {
+    width: 28%;
+    padding: 15px;
+    border: 2px solid #C0C1C9;
+    border-radius: 7px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.hero-input1{
+    width: 28%;
+    padding: 4px;
+    border: 2px solid #C0C1C9;
+    border-radius: 7px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.hero-input1 input{
+    border: none;
+
+}
+.hero-input input {
+    border: none;
+
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero-form button {
+
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    background-color: #124FAA;
+    font-size: medium;
+    border: none;
+}
+
+#hero-form2 {
+    height: 47%;
+    width: 100%;
+}
+
+.form2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+    gap: 10px;
+}
+
+#bottom-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#bottom-bar a {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+}
+
+#weekend-deals {
+    width: 100%;
+    height: 500px;
+}
+
+#weekend-top-bar {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+#weekend-top-bar button {
+    width: 140px;
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: blue;
+    font-size: medium;
+}
+
+.hotels-container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotel-card {
+    width: 24%;
+    height: 100%;
+}
+
+.hotel-img-container {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.trvl-media.com/lodging/115000000/114520000/114518800/114518742/w2334h2201x25y25-bb1d7242.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+
+    width: 32px !important;
+    height: 32px !important;
+    background-color: white;
+    color: #ff385c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    align-content: center;
+
+}
+
+.arrow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+}
+
+
+.arrow i {
+    width: 30px;
+    height: 30px;
+    background-color: #47393B;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+
+.hotel-img-content {
+    width: 100%;
+    height: 50%;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.card-con {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating {
+    background-color: #227950;
+    padding: 7px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 5px;
+}
+
+.card-con1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.discount {
+    background-color: #227950;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-self: flex-start;
+    color: white;
+}
+
+.card-con1 h2 {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.hotel-card2 {
+    width: 25%;
+    height: 100%;
+}
+
+.hotel-img-container2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.trvl-media.com/lodging/104000000/103200000/103197900/103197817/24bc7c0c.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hotel-img-container3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.trvl-media.com/lodging/111000000/110070000/110065700/110065610/a5f2cc58.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hotel-img-container4 {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.trvl-media.com/lodging/109000000/108600000/108594000/108593957/e6c7d40c.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#Top-deals {
+    height: 500px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+#deal-topbar {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#deal-topbar h2 {
+    font-size: 30px;
+}
+
+
+#deal-topbar button {
+    width: 140px;
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: blue;
+    font-size: medium;
+}
+
+.hotel-car {
+    width: 24%;
+    height: 450px;
+
+}
+
+.hotel-contain {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.hotel-img-cnt {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.trvl-media.com/lodging/125000000/124510000/124508400/124508396/w2726h3660x35y35-694426e1.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+.heart-icn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: red;
+    font-size: 20px;
+
+    width: 32px !important;
+    height: 32px !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    align-content: center;
+}
+
+.arrow-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    /* box-sizing: border-box; */
+}
+
+.arrow-2 i {
+    width: 30px;
+    height: 30px;
+    background-color: #47393B;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.hotel-img-txt {
+    padding-top: 8px;
+}
+
+.txt-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-top: 5px;
+
+}
+
+.rat {
+    background-color: #227950;
+    padding: 8px;
+    color: white;
+    border-radius: 7px;
+}
+
+.txt-cont1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.disc {
+    background-color: #304CA2;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.hotel-img-cnt2 {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.trvl-media.com/lodging/16000000/15080000/15077900/15077866/92c74ada.jpg?impolicy=resizecrop&rw=1200&ra=fit);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.hotel-img-cnt3 {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.trvl-media.com/lodging/107000000/106890000/106889700/106889683/d33a9eee.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.hotel-img-cnt4 {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.trvl-media.com/lodging/1000000/530000/526400/526343/12d9c704.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.ad-bar {
+    height: 40%;
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.ad-img {
+    height: auto;
+    width: 50%;
+    background-image: url(https://all.accor.com/loyalty-program/cards-status-benefits-details/assets/images/cards/classic.svg);
+    background-position: center;
+    position: relative;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    outline: none;
+}
+
+.ad-img-cont {
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 2px solid rgb(184, 182, 182);
+}
+
+.ad-img-cont img {
+    height: 100px;
+    width: 100px;
+}
+
+.img-cont-txt {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.bottom-cnt {
+    margin-top: 15px;
+    font-size: larger;
+    margin-left: 5px;
+}
+
+
+#hotel-stays {
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+
+#hotel-stays h2 {
+    padding: 5px 0 0 15px;
+    font-size: 35px;
+}
+
+#hotel-stays p {
+    padding: 3px 0 0 15px;
+    font-size: 15px;
+}
+
+.stays-container {
+    height: 83%;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.cards-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.stays-links {
+    height: 5.3%;
+    width: 100%;
+    border-bottom: 2px solid rgb(168, 167, 167);
+    margin-left: 10px;
+}
+
+.stays-links a {
+    font-size: 19px;
+    padding: 15px 0 0 25px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.a-tag {
+    color: blue !important;
+    padding: 15px 0 0 3px !important;
+    border-bottom: 2px solid blue;
+}
+
+
+.stays-card {
+    margin-top: 5px;
+    height: 90%;
+    width: 24%;
+
+}
+
+.stays-img {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.trvl-media.com/lodging/115000000/114900000/114894300/114894291/a212a254.jpg?impolicy=resizecrop&ra=fit&rw=455&rh=455);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.stays-img h3 {
+    background-color: black;
+    color: white;
+    width: 35%;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 8px 0 0 15px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.stays-content {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-txt {
+    padding: 0 !important;
+    margin-top: 1px;
+
+}
+
+.p-txt1 {
+    padding: 0 !important;
+
+}
+
+.h3-txt {
+    margin-top: 10px;
+
+}
+
+.h3-txt1 {
+    margin-top: 13px;
+    font-size: 22px;
+}
+
+.stays-img2 {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.trvl-media.com/lodging/16000000/15180000/15175200/15175162/ed8e46ab.jpg?impolicy=fcrop&w=600&h=450&p=1&q=high);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.stays-img3 {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.trvl-media.com/lodging/113000000/112150000/112143500/112143471/030bf205.jpg?impolicy=fcrop&w=600&h=450&p=1&q=high);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+.stays-img4 {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.trvl-media.com/lodging/6000000/6000000/5995100/5995034/6bf34010.jpg?impolicy=fcrop&w=600&h=450&p=1&q=high);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.stays-img2 h3 {
+    background-color: black;
+    color: white;
+    width: 35%;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 8px 0 0 15px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.stays-img3 h3 {
+    background-color: black;
+    color: white;
+    width: 35%;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 8px 0 0 15px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+.stays-img4 h3 {
+    background-color: black;
+    color: white;
+    width: 35%;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 8px 0 0 15px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+#bottom-ad{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#bottom-ad-container{
+    height: 38%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#bottom-ad-container h3{
+    font-size: 30px;
+}
+
+#bottom-ad-container-link{
+    height: 12%;
+    width: 100%;
+    padding: 8px 0 0 15px;
+    margin-top: 10px;
+    display: flex;
+    gap: 28px;
+}
+
+#bottom-ad-container-link a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+#a-tag-botm{
+    color: blue !important;
+    border-bottom: 2px solid blue;
+}
+
+#bottom-ad-txt{
+    height: 70%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.link{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.link li{
+    margin-bottom: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+footer{
+    height: 520px;
+    width: 100%;
+    background-color: #EFF3F7;
+}
+
+footer img{
+    margin: 15px 0 0 50px;
+    size: 50px;
+}
+#footer-content{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EFF3F7;
+}
+
+#footer-content ul{
+    list-style: none;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: blue;
+}
+
+#footer-content ul h4{
+    font-size: 19px;
+    color: black;
+}
+
+#footer-bottom{
+    display: flex;
+    align-items: flex-end;
+}
